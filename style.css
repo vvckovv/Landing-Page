@@ -1,0 +1,1153 @@
+@import"https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@500;600&family=Lexend:wght@600&family=Montserrat:wght@400;600&family=Poppins:wght@100;400&family=Roboto:wght@400;900&family=Sarpanch&family=Space+Grotesk&display=swap";@import"https://fonts.googleapis.com/css2?family=Inter&display=swap";* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.hamburger {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.london-tower {
+    background: url("/Architect\ history\ victorian\ famous\ tower.png") no-repeat center;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.new-background {
+    background: #3f3d3de6;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 20px;
+    border-bottom: 3px solid #EC2F2F;
+}
+
+.navbar
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar
+.contact
+.contact-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar
+.contact
+.contact-data img {
+    border: 1px solid #ffffff;
+    width: 25px;
+    height: 25px;
+    top: -1px;
+    left: 3px;
+    padding: 3.13px;
+}
+
+.navbar
+.contact
+.contact-data p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 150px;
+    height: 25px;
+    color: #fff;
+    background: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.fin-tec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid #484444;
+}
+
+.fin-tec h2 {
+    font-family: Sarpanch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .05em;
+    text-align: left
+}
+
+.fin-tec .navdown {
+    display: flex;
+    gap: 12px;
+    margin-right: 150px
+}
+
+.fin-tec li {
+    cursor: pointer;
+    list-style: none;
+    font-weight: 700;
+}
+
+.fin-tec li a {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: .05em;
+}
+
+.fin-tec li a:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.questions 
+.answers {
+    background: #292929;
+    padding: 6px 50px 6px 6px;
+    width: 666px;
+    height: 33px;
+    padding: 5px, 79px, 4px, 16px;
+}
+
+.questions
+.answers h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.2px;
+    letter-spacing: .05em;
+    text-align: left;
+}
+
+.questions
+.talk {
+    width: 650px;
+    height: 72px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.who-we-are {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.who-we-are .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 470px;
+}
+
+.who-we-are
+.left p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: .05em;
+}
+
+.who-we-are .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 391px;
+    background: #e3414b;
+}
+
+.who-we-are .right div {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+}
+
+.who-we-are .right div p {
+    font-family: Sarpanch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: .05em;
+    text-align: center;
+    color: #fff;
+}
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 7%;
+}
+
+.what-we-do p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: .05em
+}
+
+.what-we-do .main-three-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.what-we-do .main-three-container .main-three img {
+    width: 263px;
+    height: 196px;
+}
+
+.what-we-do .main-three-container .main-three .division {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.what-we-do .main-three-container .main-three .division img {
+    width: 33px;
+    height: 33px;
+}
+
+.what-we-do .main-three-container .main-three p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .05em;
+    text-align: left;
+    width: 256px;
+    color: #575252;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3b3b3b;
+    margin: 50px 0;
+    padding: 40px 20px;
+}
+
+.call-to-action .call-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.call-to-action .call-right h3 {
+    font-family: Sarpanch;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #fff
+}
+
+.call-to-action .call-right p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #fff
+}
+
+.call-to-action .call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.call-to-action .call-left button {
+    top: 33px;
+    left: 858px;
+    padding: 10px;
+    gap: 10px;
+    background: #fa434a;
+    color: #fff;
+    outline: none;
+    border: none
+}
+
+.why-choose-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.why-choose-us .choose-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.why-choose-us .choose-left h2 {
+    font-family: Sarpanch;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #413f3f;
+}
+
+.why-choose-us .choose-left p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #575252;    
+    width: 505px;
+}
+
+.why-choose-us .choose-left .board {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 42px; 
+}
+
+.why-choose-us .choose-left .board-level p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .05em;
+    text-align: left;
+    width: 221px;
+}
+
+.why-choose-us .choose-left .board-level .topic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.meet-our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background: url(Business\ meeting\ room\ on\ high\ rise\ office\ building.png) #f80606 no-repeat center;
+    background-size: 100%;
+}
+
+.meet-our-team h2 {
+    text-align: center;
+    font-family: Sarpanch;
+    color: #fff;
+}
+
+.meet-our-team .team-talk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #fff;
+}
+
+.meet-our-team .team-talk p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-align: left;
+    width: 672px;
+    margin-bottom: 30px;
+}
+
+.meet-our-team .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+}
+
+.meet-our-team .profile .tel-no {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.meet-our-team .profile .tel-no h3,.meet-our-team .profile .tel-no p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: .05em;
+    text-align: left;
+}
+
+.reach-to-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 100px ;
+}
+
+.reach-to-us .reach-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.reach-to-us .reach-right h2 {
+    color: #000;
+    font-family: Sarpanch;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: .05em;
+    text-align: left;
+}
+
+.reach-to-us .reach-right p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-align: left;
+    width: 366px;
+}
+
+.reach-to-us .reach-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.input-list input {
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.reach-to-us .reach-left .select option {
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #575252
+}
+
+.selects {
+    border: none;
+    border-bottom: 1px solid #575252;
+    width: 100%;
+    color: #575252;
+}
+
+.reach-to-us .reach-left .inputs {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 42px;
+    border-bottom: 1px solid #575252;
+}
+
+.reach-to-us .reach-left .inputs input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #575252;
+    outline: none;
+}
+
+.reach-to-us .reach-left .inputs label {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #575252;
+    gap: 54px;
+}
+
+.select {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #575252;
+    outline: none;
+    width: 330px;
+    padding-bottom: 0;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #575252;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F1919;
+    padding: 20px 100px;
+    
+}
+
+.footer-cont .about-us .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-cont .about-us .about h2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-cont .about-us .about p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #575252;
+    width: 340px;
+    height: 114px;
+}
+
+.footer-cont .services-out .service {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-cont .services-out .service h2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-cont .services-out .service .arrow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-cont .services-out .service .arrow h3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #575252;
+}
+
+.footer-cont .recent-news {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.footer-cont .recent-news .recent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.footer-cont .recent-news .recent h2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-cont .recent-news .recent p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-align: left;
+    color: #575252;
+    width: 210px
+}
+
+.footer-cont .recent-news .read-more {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    align-items: center;
+    color: #575252;
+    gap: 12px
+}
+
+.footer-cont .recent-news .read-more h3 {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .05em;
+    text-align: left
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-contact {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 20px;
+        border-bottom: 3px solid #974545;
+    }
+
+    .login-btn {
+        width: 100%;
+        height: 25px;
+        color: #fff;
+        background: none;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: .05em;
+        text-align: center;
+        border: none;
+        outline: none;
+    }
+
+    .footer-cont {
+        flex-direction: column;
+        gap: 50px;
+        width: auto;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .footer-cont .about-us {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .footer-cont .about-us .about {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-cont .about-us .about h2 {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: .05em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .footer-cont .about-us .about p {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        color: #575252;
+        width: 100%;
+    }
+
+    .contact .contact-data:nth-child(2) {
+        display: none;
+    }
+
+    .reach-to-us {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        margin: 40px 0;
+        padding: 0;
+    }
+
+    .reach-to-us .input-list {
+        width: auto;
+    }
+
+    .reach-to-us .reach-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .reach-to-us .reach-left .inputs {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .reach-to-us .reach-left .inputs input {
+        width: 100px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #575252;
+        outline: none
+    }
+
+    .reach-to-us .reach-left .inputs label {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 16px;
+        letter-spacing: .05em;
+        text-align: left;
+        color: #575252;
+    }
+
+    .reach-to-us .reach-right h2 {
+        color: #000;
+        font-family: Sarpanch;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: .05em;
+        text-align: center;
+    }
+
+    .reach-to-us .right p {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: .05em;
+        text-align: left;
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .board {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .main-three-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .fin-tec h2 {
+        font-family: Sarpanch;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: .05em;
+        text-align: left;
+    }
+
+    .fin-tec .navdown {
+        display: none;
+    }
+
+    .questions .answers {
+        background: #292929;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .questions .answers h3 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: .05em;
+        text-align: center;
+    }
+
+    .questions .talk {
+        width: auto;
+        height: auto;
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: .05em;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .new-background {
+        background: #3f3d3de6;  
+        background-size: 100%;
+        height: 100vh;
+    }
+
+
+    .why-choose-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin: 40px 0;
+    }
+
+    .why-choose-us .choose-right {
+        display: none;
+    }
+
+    .why-choose-us .choose-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .why-choose-us .choose-left h2 {
+        font-family: Sarpanch;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: .05em;
+        text-align: left;
+        color: #413f3f;
+    }
+
+    .why-choose-us .choose-left p {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: .05em;
+        text-align: left;
+        color: #575252;
+        padding: 0 30px;
+        width: auto;
+    }
+
+    .why-choose-us .choose-left .board {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .why-choose-us .choose-left .board-level p {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: .05em;
+        text-align: start;
+        width: 300px;
+    }
+
+    .why-choose-us .choose-left .board-level .topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .who-we-are {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin: 30px 0;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .footer-cont {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .footer-img {
+        width: 100%;
+        height: 100%;
+    }
+    .footer-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .who-we-are 
+    .left {
+        width: 100%;
+    }
+
+    .meet-our-team .team-talk p {
+        width: 100%;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: .05em;
+        text-align: center;
+        width: auto;
+        margin-bottom: 30px
+    }
+
+    .meet-our-team .profile {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .who-we-are .right {
+        width: 100%;
+    }
+
+    .reach-to-us .reach-right {
+        width: 100%;
+    }
+    .reach-to-us .reach-right p {
+        width: 100%;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: .05em;
+        text-align: left;
+        padding: 0 10px;
+    }
+
+    .reach-to-us .reach-left .inputs {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .meet-our-team {
+        background-size: 100% 100%;
+        padding: 20px;
+    }
+
+    .london-tower {
+        background: url("Architect\ history\ victorian\ famous\ tower.png") no-repeat center;
+        background-size: 100% 100%;
+        height: 100vh;
+        color: #fff;
+        width: 100%;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        background-color: #3b3b3b;
+        margin: 50px 0;
+        padding: 40px 20px
+    }
+
+    .call-to-action .call-right h3 {
+        font-family: Sarpanch;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 41px;
+        letter-spacing: .05em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .call-to-action .call-right p {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: .05em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .call-to-action .call-left button {
+        top: 33px;
+        left: 858px;
+        padding: 10px;
+        gap: 10px;
+        background: #fa434a;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+
+    .selects {
+        border: none;
+        border-bottom: 1px solid #575252;
+        width: 100%;
+        color: #575252;
+    }
+
+
+    select {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #575252;
+        outline: none;
+        width: 300px;
+        padding-bottom: 5px;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: .05em;
+        text-align: left;
+        color: #575252
+    }
+
+    .what-we-do p {
+        text-align: center;
+    }
+
+    .who-we-are .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .who-we-are .left p {
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0.05em;
+        text-align: left;
+    }
+
+    .who-we-are .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        background: #e3414b;
+    }
+
+    .who-we-are .left div p {
+        font-family: Sarpanch;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: .05em;
+        text-align: center;
+       color: #000;
+    }
+}
